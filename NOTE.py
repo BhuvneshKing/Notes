@@ -166,6 +166,8 @@ def aboutview():
     aro.title("About")    
     aro.iconbitmap("notebook.ico")
     aro.geometry("350x300+300+300")
+    aro.maxsize(350,300)
+    aro.minsize(350,300)
     Label(aro,text="About me :-",font="Bahnschrift 19",bg="#1F2732",fg="#FFBD09").pack(anchor=NW)   
     Label(aro,
     text=
